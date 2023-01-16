@@ -1,0 +1,29 @@
+html,
+body {
+  background-color: rgb(77, 172, 216);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+img {
+  width: 23%;
+  /* margin: 2%; */
+  border: 5px solid rgba(0, 0, 0, 0.705);
+}
+/* #grid :nth-child(even) {
+  transform: rotate(90deg);
+} */
+#grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  padding: 1%;
+  border: 1px solid black;
+  box-shadow: 2px 4px 6px 6px rgb(51, 47, 47);
+}
+select {
+  margin: 0 0 5% 0;
+}
